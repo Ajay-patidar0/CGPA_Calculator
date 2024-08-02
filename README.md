@@ -27,7 +27,7 @@ This is a simple Android application built using Jetpack Compose and Kotlin that
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/cgpa-calculator.git
+    git clone https://github.com/Ajay-patidar0/CGPA_Calculator.git
     ```
 
 2. Open the project in Android Studio.
