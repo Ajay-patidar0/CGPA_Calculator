@@ -41,29 +41,3 @@ This is a simple Android application built using Jetpack Compose and Kotlin that
 3. Tap on "Calculate CGPA" to see the calculated CGPA.
 4. The application will display the all-time CGPA and the grades and credits of previous semesters.
 
-## Code Overview
-
-The main components of the application are:
-
-- `MainActivity.kt`: The main activity that sets up the content view using Jetpack Compose.
-- `CgpaCalculatorTheme.kt`: Defines the theme for the application.
-- `Cgpa.kt`: Contains the composable functions for the CGPA calculator UI and logic.
-
-### MainActivity.kt
-
-```kotlin
-class MainActivity : ComponentActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContent {
-            CGPACalculatorTheme {
-                Surface(
-                    modifier = Modifier.fillMaxSize(),
-                    color = MaterialTheme.colorScheme.background
-                ) {
-                    Cgpa()
-                }
-            }
-        }
-    }
-}
